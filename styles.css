@@ -1,0 +1,48 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f8f0e3;
+    color: #5a3e36;
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+textarea, button, input {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #5a3e36;
+    border-radius: 5px;
+}
+button {
+    background-color: #5a3e36;
+    color: white;
+    cursor: pointer;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background: #5a3e36;
+    padding: 10px;
+    border-radius: 10px;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ideas img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+

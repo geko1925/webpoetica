@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subir Poemas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sube tu poema</h1>
+        <div class="nav">
+            <a href="index.html">Inicio</a>
+            <a href="ideas.html">Ideas para crear poemas</a>
+            <a href="subir.html">Subir Poemas</a>
+        </div>
+        
+        <textarea id="poemText" placeholder="Escribe tu poesía aquí..."></textarea>
+        <button onclick="addPoem()">Publicar</button>
+        <div class="poems" id="poemsContainer"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
